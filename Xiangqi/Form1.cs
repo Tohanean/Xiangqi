@@ -20,13 +20,18 @@ namespace Xiangqi
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            game = new Game(this);
+            
             //game.Show();
         }
 
         private void startGame_Click(object sender, EventArgs e)
         {
-           
+            game = new Game(this);
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }
