@@ -12,6 +12,7 @@ namespace Xiangqi
 {
     public partial class GameScreen : Form
     {
+        Game game;
         public GameScreen()
         {
             InitializeComponent();
@@ -19,7 +20,14 @@ namespace Xiangqi
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            game = new Game(this);
+            //game.Show();
+        }
+
+        private void startGame_Click(object sender, EventArgs e)
+        {
+           
+
         }
     }
 }
