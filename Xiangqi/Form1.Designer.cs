@@ -47,7 +47,7 @@ namespace Xiangqi
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.Control;
             this.panel1.ForeColor = System.Drawing.Color.DarkGreen;
-            this.panel1.Location = new System.Drawing.Point(657, 283);
+            this.panel1.Location = new System.Drawing.Point(674, 592);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(130, 72);
             this.panel1.TabIndex = 1;
@@ -57,7 +57,7 @@ namespace Xiangqi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 659);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.startGame);
             this.Name = "GameScreen";
