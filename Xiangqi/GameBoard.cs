@@ -4,10 +4,10 @@ using System;
 
 namespace Xiangqi
 {
-     class Game
+     class GameBoard
      {
           Panel[,] panels = new Panel[Ct.H, Ct.W];
-        public Game(Form g)
+        public GameBoard(Form g)
         {
             
             panels = new Panel[Ct.H + 1, Ct.W + 1];
@@ -58,8 +58,8 @@ namespace Xiangqi
                     this.panels[i, j].Top = Ct.TopBoardPosition + i * (Ct.CellSize + Ct.CellPadding);
                     this.panels[i, j].Size = new System.Drawing.Size(Ct.CellSize, Ct.CellSize);
                    
-                    this.panels[i, j].MouseEnter += OnMouseEnter;
-                    this.panels[i, j].MouseLeave += OnMouseLeave;
+                   // this.panels[i, j].MouseEnter += OnMouseEnter;
+                   // this.panels[i, j].MouseLeave += OnMouseLeave;
                     this.panels[i, j].MouseDoubleClick += OnMouseDoubleClick;
 
 
